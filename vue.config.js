@@ -10,7 +10,7 @@ module.exports = {
         port: 8000,
         proxy: {
             '/public': {
-                target: 'http://192.168.1.7:4000',
+                target: 'http://192.168.1.6:4000',
                 changeOrigin: true,
                 ws: true
             }

@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const routes = [{
     path: '/',
     name: 'home',
-    component: resolve => require(['../views/Home.vue'], resolve)
+    component: resolve => require(['../views/home.vue'], resolve)
 }]
 
 const router = new VueRouter({
